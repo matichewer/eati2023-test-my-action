@@ -1,4 +1,4 @@
-name: Pipeline
+name: Test-my-action
 on: 
   push:
     branches:
@@ -6,9 +6,10 @@ on:
 
 jobs:   
   test:
-    name: 'Test action'  
+    name: 'Test my action'  
     runs-on: ubuntu-latest
     steps: 
-      - name: 'Test action de matichewer/eati2023-test-my-action'
-        uses: matichewer/eati2023-test-my-action
-
+      - uses: actions/checkout@v3
+      - uses: matichewer/eati2023-test-my-action@main
+        #env:
+         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
