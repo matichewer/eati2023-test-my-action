@@ -9,6 +9,6 @@ jobs:
     name: 'Test action'  
     runs-on: ubuntu-latest
     steps: 
-      - name: 'Test action de matichewer/eati2023-test-my-action@main'
-        uses: matichewer/eati2023-test-my-action@main
+      - name: 'Test action de matichewer/eati2023-test-my-action@v1'
+        uses: matichewer/eati2023-test-my-action@v1
 
