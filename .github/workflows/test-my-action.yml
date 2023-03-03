@@ -6,13 +6,11 @@ on:
 
 jobs:   
   test:
-    name: 'Build'  
+    name: 'Test action'  
     runs-on: ubuntu-latest
     steps: 
       - name: 'Checkout repo de matichewer/eati2023-test-my-action@main'
         uses: matichewer/eati2023-test-my-action@main
         with:
           repository: matichewer/eati2023-test-my-action
-          ref: main
-          path: .
 
