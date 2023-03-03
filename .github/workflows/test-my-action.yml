@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout/@v3
-      - uses: matichewer/eati2023-test-my-action/action.yml@main
+      - uses: matichewer/eati2023-my-action@main
