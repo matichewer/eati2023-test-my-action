@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: 'Test action de matichewer/eati2023-test-my-action@v1'
-        uses: matichewer/eati2023-test-my-action@v1
+        uses: matichewer/eati2023-test-my-action@v2
 
