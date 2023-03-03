@@ -9,7 +9,5 @@ jobs:
     name: 'Test my action'  
     runs-on: ubuntu-latest
     steps: 
-      - uses: actions/checkout@v3
-      - uses: matichewer/eati2023-test-my-action@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout/@v3
+      - uses: matichewer/eati2023-test-my-action/action.yml@main
