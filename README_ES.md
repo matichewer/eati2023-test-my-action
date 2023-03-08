@@ -2,7 +2,7 @@
 
 [🇺🇸 Read in english](README.md)
 
-### EATI 2023: CI/CD Primeros Pasos
+### EATI 2023: Test My Action
 
 En este repositorio hemos usado las Actions que creamos [aquí](https://github.com/matichewer/eati2023-my-action).
 
