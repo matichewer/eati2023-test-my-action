@@ -2,9 +2,9 @@
 
 [🇪🇸 Leer en español](README_ES.md)
 
-### EATI 2023: My Action
+### EATI 2023: Test My Action
 
-In this repository we have tested the Action we created [here](https://github.com/matichewer/eati2023-my-action).
+In this repository we have tested the Actions we created [here](https://github.com/matichewer/eati2023-my-action).
 
 ___
 
